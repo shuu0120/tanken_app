@@ -9,7 +9,7 @@ import { useState } from 'react'
 
 import '../../lib/FirebaseConfig'
 
-export default function Auth() {
+export default function RegisterPage() {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
