@@ -1,8 +1,6 @@
 import { initializeApp, getApps } from 'firebase/app'
 import { getAuth, connectAuthEmulator } from 'firebase/auth'
 
-// TODO Firebase本体と連携する際に情報を入力する
-// ? .envに入れたらgithubで公開されない
 // ? 参考：https://qiita.com/masakiwakabayashi/items/741998ed5b830d8f3707
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_API_KEY,
